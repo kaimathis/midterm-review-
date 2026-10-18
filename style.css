@@ -1,1 +1,157 @@
 
+/* Overall page */
+body {
+  margin: 0;
+  background-color: #faf8f4;
+  color: #222222;
+}
+
+/* Publication masthead */
+#masthead {
+  background-color: #651d32;
+  color: white;
+  text-align: center;
+  padding: 35px 20px;
+  border-bottom: 5px solid #222222;
+}
+
+.publication {
+  font-family: Helvetica, sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+
+.tagline {
+  font-family: Helvetica, sans-serif;
+  font-size: 11px;
+  letter-spacing: 3px;
+  margin-top: 10px;
+}
+
+/* Main story container */
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* Story category */
+.category {
+  font-family: Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: #651d32;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+/* Headline */
+h1 {
+  font-family: Helvetica, sans-serif;
+  font-size: 42px;
+  line-height: 1.15;
+  margin-bottom: 20px;
+}
+
+/* Byline */
+#byline {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+/* Body text */
+p {
+  font-family: Georgia, serif;
+  font-size: 13px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+/* Images */
+figure {
+  margin: 30px 0;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+figcaption {
+  font-family: Helvetica, sans-serif;
+  font-size: 11px;
+  color: #666666;
+  margin-top: 8px;
+  line-height: 1.5;
+}
+
+/* Pull quote */
+blockquote {
+  font-family: Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1.4;
+  color: #651d32;
+  border-left: 5px solid #651d32;
+  padding: 15px 25px;
+  margin: 40px 0;
+}
+
+/* Related stories */
+#read-more {
+  border-top: 2px solid #651d32;
+  margin-top: 50px;
+  padding-top: 20px;
+}
+
+#read-more h2 {
+  font-family: Helvetica, sans-serif;
+  font-size: 24px;
+}
+
+#read-more li {
+  margin-bottom: 15px;
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+a {
+  color: #651d32;
+}
+
+a:hover {
+  color: #222222;
+}
+
+/* Footer */
+footer {
+  background-color: #222222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  color: white;
+  margin: 0;
+}
+
+/* Mobile layout */
+@media screen and (max-width: 600px) {
+  .publication {
+    font-size: 32px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  blockquote {
+    font-size: 22px;
+  }
+}
+
